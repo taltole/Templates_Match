@@ -1,7 +1,7 @@
 # Templates_Match
 
 TMatch will look and match 2 templates, provided in library and measure the distance between them.
-This program was aimed and optimzed for low specs CPU.
+This program was aimed and optimzed for low specs CPU and micro controllers.
 (future plan will use robust NN based algorithm (using GPU)).
 
 ## Installation
@@ -28,11 +28,13 @@ python Main.py [-folder]
 ### Attention
 - Make sure your template files (2 files) are in the same folder as the images under query.
 - Program will find them automatic if named starts with temp...
+- Any suggestion and comments are very welcome.
+- Enjoy.
 
 
 #### Examples Vis match and measure
 
 <p align='center'>
-<img src='data/result.png' title='Set 1' style='max-width:600px'></img>
-<img src='data/result2.png' title='Set 2' style='max-width:600px'></img>
+<img src='data/result.png' title='Set 1' style='max-width:300px'></img>
+<img src='data/result2.png' title='Set 2' style='max-width:300px'></img>
 </p>
