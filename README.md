@@ -1,5 +1,8 @@
 # Templates_Match
-TMatch will match template provided in library and measure distance between them.
+
+TMatch will look and match 2 templates, provided in library and measure the distance between them.
+This program was aimed and optimzed for low specs CPU. Using Basic computer vision  
+(future plan will use robust NN based algorithm (using GPU)).
 
 ## Installation
 
