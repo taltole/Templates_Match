@@ -1,8 +1,7 @@
 """
 Program loop over images in folder match 2 templates to calculate their distance between them.
 
-By:
-Tal A. Toledano
+- Tal A. Toledano
 """
 
 # IMPORTS
