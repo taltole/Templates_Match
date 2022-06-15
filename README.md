@@ -27,7 +27,7 @@ python Main.py [-folder]
 ```
 ### Attention
 - Make sure your template files (2 files) are in the same folder as the images under query.
-- Program will find automatic if nameing starts with temp***.***
+- Program will find them automatic if named starts with temp...
 
 
 #### Examples Vis match and measure
