@@ -1,0 +1,35 @@
+# Templates_Match
+TMatch will match template provided in library and measure distance between them.
+
+## Installation
+
+### Requirements
+
+* Python 3.5+ (it may work with other versions too).
+* Linux, Windows or macOS
+
+### Install
+
+```
+pip install requirements.txt
+```
+## From Source
+```
+git clone https://github.com/taltole/Templates_Match.git
+```
+
+## Run
+```
+python Main.py [-folder]
+```
+### Attention
+- Make sure your template files (2 files) are in the same folder as the images under query.
+- Program will find automatic if nameing starts with temp***.***
+
+
+#### Examples Vis match and measure
+
+<p align='center'>
+<img src='data/result.png' title='Set 1' style='max-width:600px'></img>
+<img src='data/result2.png' title='Set 2' style='max-width:600px'></img>
+</p>
