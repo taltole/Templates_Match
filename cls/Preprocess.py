@@ -1,6 +1,7 @@
 import cv2
 import os
 import inspect
+import sys
 
 
 class Prep:
@@ -9,9 +10,13 @@ class Prep:
     """
 
     def __init__(self, image):
-        self.image = cv2.imread(image) if os.path.isfile(image) else 'Non img file'
-        self.origin = self.image.copy()
-        self.gray = cv2.imread(image, 0)
+        try:
+            self.image = cv2.imread(image) if os.path.isfile(image) else 'Non img file'
+            self.origin = self.image.copy()
+            self.gray = cv2.imread(image, 0)
+        except:
+            print("Image file not found, check path!")
+            sys.exit()
 
     def get_info(self, image, show=False):
         var = self.retrieve_name(image).upper()

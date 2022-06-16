@@ -7,6 +7,8 @@ import imutils
 import cv2
 from scipy.spatial import distance as dist
 from collections import defaultdict
+import matplotlib.pyplot as plt
+from skimage import exposure
 
 # Constants
 T1 = 0
